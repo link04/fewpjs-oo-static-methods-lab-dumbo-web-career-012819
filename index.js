@@ -9,7 +9,7 @@ class Formatter {
   }
  
    static titleize(string){
-     
+     const exceptions = []
     return string[0].toUpperCase() + string.split('').splice(1).join('');
     
   }
