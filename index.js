@@ -5,7 +5,7 @@ class Formatter {
   }
  
   static sanitize(string){
-    return string[0].toUpperCase() + string.split('').splice(1).join('');
+    return input.replace(/[^0-9a-z]/gi, '')
   }
  
    static titleize(string){
