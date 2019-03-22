@@ -11,9 +11,9 @@ class Formatter {
    static titleize(string){
      const exceptions = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from'];
      
-     string.split(' ').map( word => {
+     string.split(' ').map( word => 
       exceptions.includes(word) ? word : this.capitalize(word)
-    }).join(' ')
+    ).join(' ')
   }
  
 
