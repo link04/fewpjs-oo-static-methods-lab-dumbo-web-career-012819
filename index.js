@@ -12,7 +12,7 @@ class Formatter {
      const exceptions = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from'];
      
      return string.split(' ').map( word => 
-      exceptions.includes(word) && string[0] != ? word : this.capitalize(word)
+      exceptions.includes(word) && string[0] != word ? word : this.capitalize(word)
     ).join(' ')
   }
  
