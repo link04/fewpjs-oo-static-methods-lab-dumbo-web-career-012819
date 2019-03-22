@@ -13,7 +13,7 @@ class Formatter {
      
     return string.split('').map( word => {
       exceptions.includes(word) ? word : this.capitalize(word)
-    })
+    }).join('')
   }
  
 
