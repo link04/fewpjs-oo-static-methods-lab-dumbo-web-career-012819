@@ -4,7 +4,7 @@ class Formatter {
     return string[0].toUpperCase() + string.split('').splice(1).join('');
   }
  
-  static capitalize(string){
+  static sanitize(string){
     return string[0].toUpperCase() + string.split('').splice(1).join('');
   }
  
