@@ -9,7 +9,7 @@ class Formatter {
   }
  
    static titleize(string){
-     const exceptions = []
+     const exceptions = [the, a, an, but, of, and, for, at, by, and from]
     return string[0].toUpperCase() + string.split('').splice(1).join('');
     
   }
