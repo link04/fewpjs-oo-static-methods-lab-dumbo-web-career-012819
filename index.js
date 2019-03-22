@@ -11,8 +11,7 @@ class Formatter {
    static titleize(string){
      const exceptions = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from'];
      
-    return string[0].toUpperCase() + string.split('').splice(1).join('');
-    
+    return string.split('').map
   }
  
 
